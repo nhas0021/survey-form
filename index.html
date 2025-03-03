@@ -14,7 +14,19 @@
         <fieldset>
             <label id="name-label" for="name">Name: <input required id="name" type="text" placeholder="Your Name"> </label>
             <label id="email-label" for="email">Email: <input required id="email" type="email" placeholder="Your Email"></label>
-            <label id="number-label" for="age">Age: <input id="age" type="number" max="120" min="10" placeholder="Your Age"></label>
+            <label id="number-label" for="age">Age (Optional): <input id="age" type="number" max="120" min="10" placeholder="Your Age"></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="role">Which option best describes your current role?
+                <select id="dropdown" name="role">
+                    <option value="">(Select current role)</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Prefer Not to Say</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
         </fieldset>
 
     </form>
